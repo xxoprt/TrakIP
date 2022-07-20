@@ -29,5 +29,5 @@ if url.status_code == 200:
 			if key == "lon":
 				lonte = ipdate["lat"]
 				murah = ipdate["lon"]
-				maps = f"https://www.google.com/maps/@{lonte},{murah},9z"
+				maps = f"https://www.google.com/maps/@{lonte}, {murah},9z"
 				print(f"Maps : {maps}")
